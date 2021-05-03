@@ -73,7 +73,7 @@ def main():
         parser.error("Please specify a valid log level")
 
     # Input
-    print("[+] Loading the APK file...")
+    print("[+] Loading the APK file....")
     chceckname(options)
     a, d, x = AnalyzeAPK(options.input)
     print(options.input)
